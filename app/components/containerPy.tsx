@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from 'next/image';
-import Scratch from '../public/scratch.png';
 import Python from '../public/python.png';
 
 const Container = () => {

@@ -51,7 +51,7 @@ const WebDesign = () => {
           />
           <h2 className="text-xl font-bold">More Web</h2>
           <p className="mt-2 mb-4">
-            "More Web" moves beyond the basics of introductory web dev and turns
+            More Web moves beyond the basics of introductory web dev and turns
             static and boring walls of information into fun and engaging
             experiences for users with HTML, CSS, and JavaScript.
           </p>
