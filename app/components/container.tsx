@@ -49,7 +49,7 @@ const Container = () => {
             <h2 className="text-xl font-bold">Python</h2>
             <p className="mt-2 mb-4">
               Make digital art, games, and more while exploring one of the
-              world's most popular programming languages.
+              worlds most popular programming languages.
             </p>
             <a href="../pages/python.html">
               <button className="border-solid border-2 px-2 py-1 border-black bg-gray-400">
