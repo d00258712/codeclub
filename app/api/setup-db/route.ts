@@ -14,6 +14,10 @@ export async function GET() {
       ON CONFLICT DO NOTHING
     `;
 
+    await sql`
+  ALTER TABLE events
+  ADD COLUMN IF NOT EXISTS tickets JSONB;
+`;
     // … rest of your table creation …
     console.log("✅ All tables created and seeded.");
     return NextResponse.json({ message: "Database setup complete!" });
